@@ -1,0 +1,36 @@
+
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.character{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.character > img{
+    height: 350px;
+    width: 300px;
+}
+.character > p{
+    text-align: center;
+    padding: 10px;
+}
+.flex{
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.header .scoreboard{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
